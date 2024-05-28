@@ -114,23 +114,7 @@ nav {
 .blog:hover{
   background-image: none;
 }
-.imgChange {
-  background-image: url("./img/coding-blog.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: lighten;
 
-  transition: background-image 0.5s 0.05s ease-in-out;
-}
-.imgChange:hover {
-  background-image: url("./img/image.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: lighten;
-  opacity: 60;
-}
 .imgChangesHere {
   background-image: url("https://media.istockphoto.com/id/1277004651/photo/hourglass-on-the-background-of-office-watch-as-time-passing-concept-for-business-deadline.webp?b=1&s=170667a&w=0&k=20&c=iq4mvAQ8Xh8hq-k1Y43P244trDx2lXfeXQR4zNhIeqg=");
   background-position: center;

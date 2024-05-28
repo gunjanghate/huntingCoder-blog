@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import PostUser from "@/components/postUser/postUser";
+import PostUser from "@/components/PostUser/PostUser";
 import { getPosts, getUser, getPost } from "@/lib/data";
 
 //Fetch Data with an API
