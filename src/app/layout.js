@@ -129,7 +129,7 @@ export default function RootLayout({ children, session }) {
               ↑
             </a>
           </div>
-          <footer className="footer min-h-10  flex flex-col justify-between   w-full bottom-0 bg-transparent">
+          <footer className="footer min-h-10  flex flex-col justify-between  w-full bottom-0 bg-transparent">
             <div className="pre-footer flex flex-row justify-evenly pt-16">
               <div className="left-pre-foot mr-20 ">
                 <div className="text-1 pl-5 pr-5 border-solid border-y-white">
