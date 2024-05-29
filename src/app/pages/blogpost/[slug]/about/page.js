@@ -12,7 +12,7 @@ const Hola = () => {
     <>
       <main
     
-        className="main-about flex min-h-screen flex-col items-center text-center lg:pl-32 lg:pr-32 justify-between p-0 overflow-scroll"
+        className="main flex min-h-screen flex-col items-center text-center lg:pl-32 lg:pr-32 justify-between p-0 overflow-scroll"
       >
         <div className="block-1 flex flex-col justify-center"     id="header">
           <div className="left-b pt-24 pb-24 pl-24 md:pl-32 lg:hidden pr-12">

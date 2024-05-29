@@ -28,11 +28,11 @@ export default function Home() {
         </div>
       </div>
       <main className="main flex h-svh flex-col items-center justify-around p-0 ">
-        <div className="content-main-head pt-0 text-3xl pl-10 mt-16 mb-5 font-extrabold ">
+        <div className="content-main-head-home pt-0 text-3xl pl-10 mt-16 mb-5 font-extrabold ">
           huntingCoder Hunts for Issues and bugs and Solution for the same!
         </div>
 
-        <div className="content-main flex flex-row justify-evenly mb-32 ml-14 mr-14">
+        <div className="content-main-home flex flex-row justify-evenly mb-32 ml-14 mr-14">
           <div className="blog-home mt-0 mr-10 mb-5 cursor-pointer hover:-translate-y-4 shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800 transition-all text-center overflow-y-scroll w-5/12 text-wrap h-96 pt-10">
             <div className="blog-item bg-transparent rounded-lg border-transparent pb-2 pl-3 pr-3 ">
               <p className="blg-txt text-2xl ">

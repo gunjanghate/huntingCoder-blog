@@ -8,10 +8,10 @@ const ContactForm = () => {
     return <p className=" min-h-screen items-center text-slate-300 ml-24 mr-12 text-center  pt-12 " id="header"><span className=" text-4xl text-white font-extrabold">Thanks for contacting!</span></p>;
   }
   return (
-    <main className=" min-h-screen items-center text-slate-300 " id="header">
-        <div className="head-contact md:ml-96 ml-40 lg:ml-96 lg:pl-72 lg:mr-auto  font-extrabold text-white mt-8 text-3xl flex gap-2">Contact Me <div className="contact-img mt-1"> <RiContactsBook3Fill /></div></div>
+    <main className="main-contact min-h-screen items-center text-slate-300 " id="header">
+        <div className="head-contact md:ml-96 ml-40 lg:ml-96 lg:pl-72 lg:mr-auto  font-extrabold text-white mt-8 text-3xl flex gap-2">Contact Us <div className="contact-img mt-1"> <RiContactsBook3Fill /></div></div>
       <div className="form md:ml-72 md:h-3/5 lg:ml-auto lg:mr-auto mt-20 ml-24 bg-transparent shadow-lg shadow-gray-500 w-96 h-3/6 pt-6 pl-5">
-        <form onSubmit={handleSubmit} className="flex flex-col gap-2 ">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-5 md:gap-2 lg:gap-1">
           <label className="text-2xl " htmlFor="name">Full Name:</label>
           <input className="w-80 p-2 rounded-md focus:border-x-2 transition-all hover:bg-slate-300  text-xl font-bold focus:border-y-2 focus:border-black text-blue-950" placeholder="Full Name" id="name" type="text" name="name" />
           <label className="text-2xl " htmlFor="email">Email Address :</label>

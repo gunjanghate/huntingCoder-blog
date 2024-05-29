@@ -227,11 +227,14 @@ html{
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+    padding-left: 60px;
+    
   }
   .para-pre-main{
     text-align: center;
     background-color: transparent;
     padding-bottom: 100px;
+    padding-left: 10px;
 
   }
   .blog {
@@ -313,29 +316,53 @@ html{
     font-size: 1.8em;
   }
   .pre-main, .pre-footer,.post-main,.main,.main-blogpost, .blog, .nav, .footer{
-   width: 570px;
+   width: 885px;
   }
   .blog-txt{
     margin-right: 0;
   }
   .content-main{
     margin-left: 270px;
-    width: 100vw;
+    /* width: 100vw; */
     margin-bottom: 60px;
     flex-direction: column;
    padding-right: 10px;
     gap: 10px;
     justify-content: space-evenly;
   } 
- 
+ .content-main-home{
+  margin-left: -50px;
+  justify-content: center;
+
+ }
+  .content-main-head-home{
+    margin-left: 105px;
+    font-size: 1.7em;
+  }
   .content-main-head{
     margin-left: 105px;
     font-size: 1.7em;
   }
   .main-blog-page{
-    width: 550px;
+    width: 750px;
     margin-left: -60px;
-    overflow: scroll;
+    overflow-y: scroll;
+    height: 180vh;
+  }
+  .main-blogpost{
+    height: 180vh;
+    font-size: 1.3em;
+    
+  }
+  .main-contact{
+    height: 120vh;
+    font-size: 1.3em;
+    margin-left: 150px;
+  }
+  .main-about{
+    height: 120vh;
+    width: 885px;
+
   }
   .ham-list {
     position: absolute;
@@ -365,9 +392,12 @@ html{
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
-   
+   padding-left: 50px;
   }
-
+  .blog-item{
+    /* /* width: 60vw; */
+    height: 50vh;
+  }
   .blog {
     height: 40vh;
     width: 40vh;
@@ -393,6 +423,7 @@ html{
   .pre-footer {
     display: flex;
     flex-direction: column;
+    height: 80vh;
     
   }
   .social {
@@ -400,7 +431,7 @@ html{
     margin-top: 30px;
   }
   .blog-home{
-    margin-left: 180px;
+    margin-left: 70px;
     height: 40vh;
     margin-bottom: 0px;
     margin-top: 0px;

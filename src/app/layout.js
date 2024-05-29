@@ -154,13 +154,23 @@ export default function RootLayout({ children, session }) {
                   </div>
                 </div>
                 <div className="text-3 mt-12 pl-5 pr-5 border-solid border-y-white">
+                  <div className="up-about">
+                    <Link href="/pages/about" className="text-2xl font-bold">
+                      About
+                    </Link>
+                  </div>
+                  <div className="down-contact text-xl mt-2 font-light">
+                    get to know about huntingCoder
+                  </div>
+                </div>
+                <div className="text-3 mt-12 pl-5 pr-5 border-solid border-y-white">
                   <div className="up-contact">
                     <Link href="/pages/contact" className="text-2xl font-bold">
                       Contact
                     </Link>
                   </div>
                   <div className="down-contact text-xl mt-2 font-light">
-                    Contact us for any queries
+                    Contact us for any queries/feedback
                   </div>
                 </div>
               </div>
