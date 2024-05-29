@@ -10,8 +10,7 @@ export default function Home() {
           width={800}
           height={500}
           alt="Picture of the coder hunting in code"
-          className="bg-opacity-95 transition-all "
-        />
+          className="bg-opacity-95 transition-all shadow-lg shadow-slate-500 rounded-md" />
         <div className="para-pre-main flex flex-col justify-center pl-14 pr-5 ">
           <p className="para-head pl-2  pt-10 text-4xl  font-extrabold transition-all">
             Welcome to huntingCoder Blog ✍🏻

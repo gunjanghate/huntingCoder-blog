@@ -393,6 +393,7 @@ html{
     flex-direction: column;
     overflow-y: scroll;
    padding-left: 50px;
+height: 100vh;
   }
   .blog-item{
     /* /* width: 60vw; */
