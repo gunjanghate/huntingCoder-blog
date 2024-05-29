@@ -4,7 +4,6 @@ const nextConfig = {
     domains: ["catswhocode.com"],
     domains: ["images.unsplash.com"],
   },
-  output: "export",
 };
 // next.config.js
 

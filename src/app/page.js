@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div className="pre-main bg-slate-900 flex" id="header">
         <Image
-          src="./img/coding-blog.jpg"
+          src="/img/coding-blog.jpg"
           width={800}
           height={500}
           alt="Picture of the coder hunting in code"
@@ -20,7 +20,7 @@ export default function Home() {
             {" "}
             your go-to source for insightful blogs on tackling coding challenges
             and debugging issues. Dive into our articles to explore expert tips,
-            solutions to common coding problems. Whether you're a beginner or an experienced
+            solutions to common coding problems. Whether you&apos;re a beginner or an experienced
             developer, our content is designed to help you navigate the
             complexities of programming with confidence. Join our community of
             passionate coders and enhance your problem-solving skills today!
@@ -28,16 +28,13 @@ export default function Home() {
         </div>
       </div>
       <main className="main flex h-svh flex-col items-center justify-around p-0 ">
-      <div className="content-main-head pt-0 text-3xl pl-10 mt-16 mb-5 font-extrabold ">
+        <div className="content-main-head pt-0 text-3xl pl-10 mt-16 mb-5 font-extrabold ">
           huntingCoder Hunts for Issues and bugs and Solution for the same!
         </div>
 
         <div className="content-main flex flex-row justify-evenly mb-32 ml-14 mr-14">
-          <div className="blog-home mt-0 mr-10 mb-5 cursor-pointer  hover:-translate-y-4   shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800  transition-all text-center overflow-y-scroll w-5/12 text-wrap h-96 pt-10">
+          <div className="blog-home mt-0 mr-10 mb-5 cursor-pointer hover:-translate-y-4 shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800 transition-all text-center overflow-y-scroll w-5/12 text-wrap h-96 pt-10">
             <div className="blog-item bg-transparent rounded-lg border-transparent pb-2 pl-3 pr-3 ">
-              {/* <h2 className="font-blog font-extrabold text-3xl">
-              ❝
-              </h2> */}
               <p className="blg-txt text-2xl ">
                 <span className="font-blog font-extrabold text-4xl ">❝</span> We
                 want to build technology that everybody loves using, and that
@@ -51,17 +48,14 @@ export default function Home() {
               </h2>
             </div>
           </div>
-          <div className="blog-home mt-0  mb-5  ml-5 mr-5 cursor-pointer  hover:-translate-y-4  shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800  transition-all text-center overflow-y-scroll w-5/12 text-wrap h-96 pt-10">
+          <div className="blog-home mt-0 mb-5 ml-5 mr-5 cursor-pointer hover:-translate-y-4 shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800 transition-all text-center overflow-y-scroll w-5/12 text-wrap h-96 pt-10">
             <div className="blog-item bg-transparent rounded-lg border-transparent pb-2 pl-3 pr-3 ">
-              {/* <h2 className="font-blog font-extrabold text-3xl">
-              ❝
-              </h2> */}
               <p className="blg-txt text-2xl ">
-                <span className="font-blog font-extrabold text-4xl ">❝</span>{" "}The
+                <span className="font-blog font-extrabold text-4xl ">❝</span> The
                 problem is that at a lot of big companies, process becomes a
-                substitute for thinking. You're encouraged to behave like a
+                substitute for thinking. You&apos;re encouraged to behave like a
                 little gear in a complex machine. Frankly, it allows you to keep
-                people who aren't that smart, who aren't that creative.{" "}
+                people who aren&apos;t that smart, who aren&apos;t that creative.{" "}
                 <span className="font-blog font-extrabold text-3xl">❞</span>
               </p>
               <h2 className="font-blog mt-3 font-light flex relative left-80 text-xl">
@@ -69,16 +63,12 @@ export default function Home() {
               </h2>
             </div>
           </div>
-          <div className="blog-home mt-0 ml-10 mb-5  cursor-pointer  hover:-translate-y-4  shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800  transition-all text-center overflow-y-scroll w-5/12 text-wrap h-96 pt-10">
+          <div className="blog-home mt-0 ml-10 mb-5 cursor-pointer hover:-translate-y-4 shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800 transition-all text-center overflow-y-scroll w-5/12 text-wrap h-96 pt-10">
             <div className="blog-item bg-transparent rounded-lg border-transparent pb-2 pl-3 pr-3 ">
-              {/* <h2 className="font-blog font-extrabold text-3xl">
-              ❝
-              </h2> */}
               <p className="blg-txt text-xl ">
-                <span className="font-blog font-extrabold text-4xl ">❝</span>{" "}
-                There are so many famous people who had done fabulous work in
-                the technology field. They also give numerous technology quote
-                which is inspiring and motivational. Here, we are giving some
+                <span className="font-blog font-extrabold text-4xl ">❝</span> There are so many famous people who had done fabulous work in
+                the technology field. They also give numerous technology quotes
+                which are inspiring and motivational. Here, we are giving some
                 technology quotes to inspire you. You should follow these quotes
                 if you want to do something interesting and creative in your
                 life in this particular field of technology.{" "}
@@ -90,33 +80,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="toBlog"><Link href="/pages/blogs" className="text-2xl font-bold">Go to blog page ➡</Link></div>
+        <div className="toBlog">
+          <Link href="/pages/blogs" className="text-2xl font-bold">
+            Go to blog page ➡
+          </Link>
+        </div>
       </main>
-      <div className="post-main opacity-60 hover:opacity-75 transition-opacity">
-        {/* <iframe src="https://www.youtube.com/embed/z6O7KmJQbJE" frameborder="0"></iframe>
-        <iframe src="https://www.youtube.com/embed/1i6g-la23HE" frameborder="0"></iframe> */}
-        {/* <img
-          src="https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="image"
-          className="post-main-img w-screen"
-        /> */}
-      </div>
+      <div className="post-main opacity-60 hover:opacity-75 transition-opacity"></div>
     </>
   );
 }
-// "use client"
-// import { useSession, signIn, signOut } from "next-auth/react"
-
-// export default function Component() {
-//   const { data: session } = useSession()
-//   if(session) {
-//     return <>
-//       Signed in as {session.user.email} <br/>
-//       <button onClick={() => signOut()}>Sign out</button>
-//     </>
-//   }
-//   return <>
-//     Not signed in <br/>
-//     <button onClick={() => signIn()}>Sign in</button>
-//   </>
-// }

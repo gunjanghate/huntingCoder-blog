@@ -48,64 +48,7 @@ const blogs = async () => {
           ))}
         </div>
 
-        {/* <div className="content-main flex flex-wrap ml-24">
-            <div className="blog mt-0  mb-10 mr-3 cursor-pointer   shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800  transition-all text-center overflow-y-scroll w-96 text-wrap h-52 pt-10">
-              <div className="blog-item bg-transparent rounded-lg border-transparent pb-5 pl-3 pr-3 ">
-                <h2 className="head-blog-size text-left mb-2 font-extrabold text-3xl">
-                  How to be Successfull in 2024?
-                </h2>
-                <p className="text-left ">
-                  Time Management is the key to success.Time Management is the
-                  key to success.Time Management is the key to success.<Link href="/pages/blogpost/Time-management"><span className="text-blue-500 hover:underline hover:border-dashed transition-all">view more...</span> </Link>
-                </p>
-              </div>
-            </div> */}
 
-        {/* <div className="blog mt-0  mb-10 mr-3  cursor-pointer  shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800  transition-all text-center overflow-y-scroll w-96 text-wrap h-52 pt-10">
-              <div className="blog-item bg-transparent rounded-lg border-transparent pb-5 pl-3 pr-3  ">
-                <h2 className="head-blog-size text-left mb-2 font-extrabold text-3xl">
-                  How to be Successfull in 2024?
-                </h2>
-                <p className="text-left ">Time Management is the key to success.<Link href="/pages/blogpost/Time-management"><span className="text-blue-500 hover:underline hover:border-dashed transition-all">view more...</span> </Link></p>
-              </div>
-            </div>
-            <div className="blog mt-0  mb-510 mr-3 cursor-pointer  shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800  transition-all text-center overflow-y-scroll w-96  text-wrap h-52 pt-10">
-              <div className="blog-item bg-transparent rounded-lg border-transparent pb-5 pl-3 pr-3  ">
-                <h2 className="head-blog-size text-left mb-2 font-extrabold text-3xl">
-                  How to be Successfull in 2024?
-                </h2>
-                <p className="text-left ">Time Management is the key to success.<Link href="/pages/blogpost/Time-management"><span className="text-blue-500 hover:underline hover:border-dashed transition-all">view more...</span> </Link></p>
-              </div>
-            </div>
- 
-            <div className="blog mt-0   mb-10 mr-3 mb-5cursor-pointer shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800  transition-all text-center overflow-y-scroll w-96 text-wrap h-52 pt-10">
-              <div className="blog-item bg-transparent rounded-lg border-transparent pb-5 pl-3 pr-3">
-                <h2 className="head-blog-size text-left mb-2 font-extrabold text-3xl">
-                  How to be Successfull in 2024?
-                </h2>
-                <p className="text-left ">
-                  Time Management is the key to success.Time Management is the
-                  key to success.Time Management is the key to success. <Link href="/pages/blogpost/Time-management"><span className="text-blue-500 hover:underline hover:border-dashed transition-all">view more...</span> </Link>
-                </p>
-              </div>
-            </div>
-            <div className="blog mt-0 mb-10 mr-3 cursor-pointer shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800  transition-all text-center text-wrap overflow-y-scroll  w-96 h-52 pt-10">
-              <div className="blog-item bg-transparent rounded-lg border-transparent pb-5 pl-3 pr-3 ">
-                <h2 className="head-blog-size text-left mb-2 font-extrabold text-3xl">
-                  How to be Successfull in 2024?
-                </h2>
-                <p className="text-left ">Time Management is the key to success.<Link href="/pages/blogpost/Time-management"><span className="text-blue-500 hover:underline hover:border-dashed transition-all">view more...</span> </Link></p>
-              </div>
-            </div>
-            <div className="blog mt-0 mb10 mr-35 cursor-pointer shadow-slate-400 shadow-lg hover:dark:bg-neutral-200 hover:text-slate-800  transition-all text-center text-wrap overflow-y-scroll  w-96 h-52 pt-10">
-              <div className="blog-item bg-transparent rounded-lg border-transparent pb-5 pl-3 pr-3 ">
-                <h2 className="head-blog-size text-left mb-2 font-extrabold text-3xl">
-                  How to be Successfull in 2024?
-                </h2>
-                <p className="text-left ">Time Management is the key to success.<Link href="/pages/blogpost/Time-management"><span className="text-blue-500 hover:underline hover:border-dashed transition-all">view more...</span> </Link></p>
-              </div>
-            </div>
-           */}
       </main>
     </>
   );

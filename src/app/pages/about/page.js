@@ -15,7 +15,7 @@ const Hola = () => {
         className="main flex min-h-screen flex-col items-center text-center lg:pl-32 lg:pr-32 justify-between p-0 overflow-scroll"
       >
         <div className="block-1 flex flex-col justify-center"     id="header">
-          <div className="left-b pt-24 pb-24 pl-24 md:pl-64 lg:hidden pr-12">
+          <div className="left-b pt-24 pb-24 pl-24 md:pl-32 lg:hidden pr-12">
             <span className="font-extrabold text-5xl text-white ">
               huntingCoder
             </span>
@@ -46,7 +46,7 @@ const Hola = () => {
         </div>
         <div className="block-2 mt-12">
           <Image
-            src="./img/about-img.avif"
+            src="/img/about-img.avif"
             width={800}
             height={500}
             alt="Picture of the coder hunting in code"
@@ -118,7 +118,7 @@ const Hola = () => {
         </div>
         <div className="block-2 mt-12">
           <Image
-            src="./img/about-1.avif"
+            src="/img/about-1.avif"
             width={800}
             height={500}
             alt="Picture of the coder hunting in code"

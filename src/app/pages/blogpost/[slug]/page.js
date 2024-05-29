@@ -72,7 +72,6 @@ const blogposts = async ({ params }) => {
                 {" "}
                 ⬅️ back
               </Link>
-              {/* <Link href={`/pages/blogpost/${post.id+1}`} className="hover:underline hover:text-blue-600 font-extrabold"> ➡️ <br /> to next blog</Link> */}
             </div>
           </div>
         </div>
