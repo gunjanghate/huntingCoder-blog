@@ -20,14 +20,14 @@ const blogs = async () => {
   const posts = await getPosts();
     return (
     <>
-      <main id="header" className="main-blog-page flex min-h-screen flex-col items-center  p-0 h-screen overflow-scroll">
+      <main id="header" className="main-blog-page flex min-h-screen flex-col items-center  p-0 h-screen overflow-y-scroll">
         <div className="content-main-head pt-0 text-4xl pl-5 mt-16 mb-10 font-extrabold ">
           Have Look to our Latest Blogs here!
         </div>
         <div className="content-main flex flex-row  flex-wrap ml-32">
           {posts.map((post) => (
             <div
-              className="blog mt-0  mb-10 mr-5 cursor-pointer hover:-translate-y-4   shadow-slate-400 shadow-lg hover:dark:bg-slate-400 hover:text-slate-900  transition-all text-center overflow-y-scroll w-80 text-wrap h-72 pt-10"
+              className="blog mt-0  mb-10 mr-5 cursor-pointer hover:-translate-y-4 overflow-y-scroll  shadow-slate-400 shadow-lg hover:dark:bg-slate-400 hover:text-slate-900  transition-all text-center  w-80 text-wrap h-72 pt-10"
               key={post.id}
             >
               <div className="blog-item bg-transparent rounded-lg border-transparent pb-5 pl-3 pr-3 ">
