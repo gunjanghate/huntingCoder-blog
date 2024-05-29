@@ -6,7 +6,7 @@ import { FcGoogle } from "react-icons/fc";
 import Link from "next/link";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-
+import { GrLogin } from "react-icons/gr";
 export default function Home() {
   const { data: session } = useSession();
   const router = useRouter();
@@ -23,7 +23,7 @@ export default function Home() {
           <div className="name-head-login pt-5 text-5xl  font-extrabold">
             huntingCoder
           </div>
-          <h2 className="login-text text-2xl font-bold ml-32 mt-10 mb-20">Login</h2>
+          <h2 className="login-text text-2xl font-bold ml-32 mt-10 mb-20 flex gap-2 "><div className="login-img mt-1"><GrLogin /></div>Login</h2>
         <button
           onClick={() => {
             signIn("google");}}

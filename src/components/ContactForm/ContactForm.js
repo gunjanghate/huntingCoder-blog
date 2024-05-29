@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-
+import { RiContactsBook3Fill } from "react-icons/ri";
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("xvoenyey");
   if (state.succeeded) {
@@ -9,7 +9,7 @@ const ContactForm = () => {
   }
   return (
     <main className=" min-h-screen items-center text-slate-300 " id="header">
-        <div className="head-contact md:ml-96 ml-40 lg:ml-96 lg:pl-72 lg:mr-auto  font-extrabold text-white mt-8 text-3xl">Contact Me!</div>
+        <div className="head-contact md:ml-96 ml-40 lg:ml-96 lg:pl-72 lg:mr-auto  font-extrabold text-white mt-8 text-3xl flex gap-2">Contact Me <div className="contact-img mt-1"> <RiContactsBook3Fill /></div></div>
       <div className="form md:ml-72 md:h-3/5 lg:ml-auto lg:mr-auto mt-20 ml-24 bg-transparent shadow-lg shadow-gray-500 w-96 h-3/6 pt-6 pl-5">
         <form onSubmit={handleSubmit} className="flex flex-col gap-2 ">
           <label className="text-2xl " htmlFor="name">Full Name:</label>
