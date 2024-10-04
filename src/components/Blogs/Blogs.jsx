@@ -77,11 +77,11 @@ const Blogs = () => {
                       alt={post.title}
                       className="w-full h-48 object-cover transition-opacity duration-300 hover:opacity-50"
                     />
-                    <div className="blog-content p-3">
-                      <h2 className="head-blog-size text-left mb-2 font-extrabold text-2xl text-white">
+                    <div className="blog-content p-3 bg-slate-200 text-blue-950">
+                      <h2 className="head-blog-size text-left mb-2 font-extrabold text-2xl">
                         {post.title}
-                      </h2>
-                      <p className="text-left text-xl text-white">
+                      </h2> 
+                      <p className="text-left text-xl">
                         {post.description}
                         {/* <Link href={`/pages/blogpost/${post.$id}`}>
                           <span className="text-blue-500 hover:underline hover:border-dashed transition-all">

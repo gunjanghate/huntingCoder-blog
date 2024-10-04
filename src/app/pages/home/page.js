@@ -2,10 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  console.log("APPWRITE_ENDPOINT:", process.env.APPWRITE_ENDPOINT);
-  console.log("APPWRITE_ID:", process.env.APPWRITE_ID);
-  console.log("APPWRITE_DB:", process.env.APPWRITE_DB);
-  console.log("APPWRITE_COLLECTION:", process.env.APPWRITE_COLLECTION);
   return (
     <>
       <div className="pre-main bg-slate-900 flex" id="header">

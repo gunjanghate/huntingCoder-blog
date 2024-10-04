@@ -9,8 +9,6 @@ export const metadata = {
 };
 
 const Blogs = async () => {
-  const posts = await getPosts(); 
-
   return (
     <>
       <main className="main-blog-page flex justify-center flex-col items-center h-full p-0 ">
