@@ -396,8 +396,10 @@ html{
 height: 100vh;
   }
   .blog-item{
-    /* /* width: 60vw; */
+    width: 60vw;
     height: 50vh;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
   }
   .blog {
     height: 40vh;
@@ -473,3 +475,4 @@ height: 100vh;
    
   }
 }
+

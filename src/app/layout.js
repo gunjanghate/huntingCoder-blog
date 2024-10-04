@@ -53,7 +53,7 @@ export default function RootLayout({ children, session }) {
                 <Link href="/pages/contact">Contact</Link>
               </li>
               <div className="log-admin flex items-center">
-                <li className="list-none pl-8 mr-3 text-white font-bold hover:font-extrabold ">
+                {/* <li className="list-none pl-8 mr-3 text-white font-bold hover:font-extrabold ">
                   <span className="bg-slate-400 p-3 rounded-xl transition-colors">
                     {isLoggedIn && isAdmIn ? "User" : "Guest"}
                   </span>
@@ -69,8 +69,8 @@ export default function RootLayout({ children, session }) {
                     {/* <Link href="/pages/login" onClick={handleClick}>
                       {isLoggedIn ? "Logout" : "Login"}
                     </Link> */}
-                  </span>
-                </li>
+                  {/* </span> */}
+                {/* </li> */}
                 <div className="hamburger">
                   <button
                     onClick={toggleMenu}
@@ -315,7 +315,7 @@ export default function RootLayout({ children, session }) {
                 <p className="text-2xl mt-12 text-wrap pl-5"></p>
               </div>
             </div>{" "}
-            <div className="post-footer flex justify-between">
+            <div className="post-footer flex justify-between sticky bottom-0">
               © Copyright 2024 | GG ~All Rights Reserved
               <div className="footer-head ">
                 <p className="text-xl  font-bold">huntingCoder</p>
