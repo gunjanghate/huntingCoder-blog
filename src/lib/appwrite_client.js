@@ -3,7 +3,7 @@ import { Client } from "appwrite";
 const client = new Client();
 
 client
-  .setEndpoint(process.env.APPWRITE_ENDPOINT)
-  .setProject(process.env.APPWRITE_ID);
+  .setEndpoint(process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT)
+  .setProject(process.env.NEXT_PUBLIC_APPWRITE_ID);
 
 export default client;

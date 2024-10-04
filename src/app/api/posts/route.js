@@ -7,8 +7,8 @@ const database = new Databases(client);
 async function createPosts(data) {
   try {
     const response = await database.createDocument(
-      process.env.APPWRITE_DB,
-      process.env.APPWRITE_COLLECTION,
+      process.env.NEXT_PUBLIC_APPWRITE_DB,
+      process.env.NEXT_PUBLIC_APPWRITE_COLLECTION,
       ID.unique(),
       data
     );
@@ -21,12 +21,12 @@ async function createPosts(data) {
 
 async function ReadPosts() {
   try {
-    console.log('Database:', process.env.APPWRITE_DB);
-    console.log('Collection:', process.env.APPWRITE_COLLECTION);
+    console.log('Database:', process.env.NEXT_PUBLIC_APPWRITE_DB);
+    console.log('Collection:', process.env.NEXT_PUBLIC_APPWRITE_COLLECTION);
     
     const response = await database.listDocuments(
-      process.env.APPWRITE_DB,
-      process.env.APPWRITE_COLLECTION,
+      process.env.NEXT_PUBLIC_APPWRITE_DB,
+      process.env.NEXT_PUBLIC_APPWRITE_COLLECTION,
       [Query.orderDesc("$createdAt")]
     );
     

@@ -7,8 +7,8 @@ const database = new Databases(client);
 async function fetchPosts(id) {
     try {
       const post = await database.getDocument(
-        process.env.APPWRITE_DB,
-        process.env.APPWRITE_COLLECTION,
+        process.env.NEXT_PUBLIC_APPWRITE_DB,
+        process.env.NEXT_PUBLIC_APPWRITE_COLLECTION,
         id
       );
       return post;
@@ -22,8 +22,8 @@ async function fetchPosts(id) {
 async function deletePosts(id) {
   try {
     const resp = await database.deleteDocument(
-      process.env.APPWRITE_DB,
-      process.env.APPWRITE_COLLECTION,
+      process.env.NEXT_PUBLIC_APPWRITE_DB,
+      process.env.NEXT_PUBLIC_APPWRITE_COLLECTION,
       id
     );
     return resp;
@@ -35,8 +35,8 @@ async function deletePosts(id) {
 async function updatePosts(id, data) {
   try {
     const resp = await database.updateDocument(
-      process.env.APPWRITE_DB,
-      process.env.APPWRITE_COLLECTION,
+      process.env.NEXT_PUBLIC_APPWRITE_DB,
+      process.env.NEXT_PUBLIC_APPWRITE_COLLECTION,
       id,
       data
     );

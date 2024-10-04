@@ -8,7 +8,7 @@ import { metadata } from "./metadata";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({ children, session }) {
+export default function RootLayout({ children }) {
 
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
