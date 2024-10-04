@@ -7,6 +7,7 @@
 //   const [author, setAuthor] = useState("");
 //   const [description, setDescription] = useState("");
 //   const [image, setImage] = useState("");
+//   const [showToast, setShowToast] = useState(false);
 
 //   const router = useRouter();
 
@@ -51,8 +52,10 @@
 //       if(!res.ok){
 //         throw new Error("Failed to update posts");
 //       }
-//       router.push('/pages/blogs')
-      
+//       setShowToast(true);
+//       setTimeout(() => {
+//         router.push('/pages/blogs');
+//       }, 3000);
 //     } catch (error) {
 //       console.log(error)
 //     }
@@ -135,6 +138,11 @@
 //           Update Post
 //         </button>
 //       </form>
+//       {showToast && (
+//         <div className="fixed top-24 left-0 w-fit h-fit rounded-lg shadow-md text-xl font-semibold shadow-slate-400 flex justify-center items-center bg-blue-500 text-white p-4">
+//           <p>Post updated successfully!</p>
+//         </div>
+//       )}
 //     </div>
 //   );
 // };
@@ -144,7 +152,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
-const updatePost = ({ params }) => {
+const UpdatePost = ({ params }) => {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [description, setDescription] = useState("");
@@ -171,7 +179,7 @@ const updatePost = ({ params }) => {
     };
 
     fetchPost();
-  }, []);
+  }, [params.id]);  // Make sure to add params.id as a dependency to avoid the warning
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -180,26 +188,26 @@ const updatePost = ({ params }) => {
       title,
       author,
       description,
-      image
+      image,
     };
     try {
       const res = await fetch(`/api/posts/${params.id}`, {
-        method: 'PUT',
+        method: "PUT",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(newPost),
       });
 
-      if(!res.ok){
+      if (!res.ok) {
         throw new Error("Failed to update posts");
       }
       setShowToast(true);
       setTimeout(() => {
-        router.push('/pages/blogs');
+        router.push("/pages/blogs");
       }, 3000);
     } catch (error) {
-      console.log(error)
+      console.log(error);
     }
   };
 
@@ -227,10 +235,7 @@ const updatePost = ({ params }) => {
           />
         </div>
         <div className="mb-4">
-          <label
-            htmlFor="author"
-            className="block text-xl font-bold text-white"
-          >
+          <label htmlFor="author" className="block text-xl font-bold text-white">
             Author:
           </label>
           <input
@@ -289,4 +294,4 @@ const updatePost = ({ params }) => {
   );
 };
 
-export default updatePost;
+export default UpdatePost;

@@ -405,7 +405,7 @@ const Blogs = () => {
             <div className="content-main flex flex-row justify-center flex-wrap">
               {posts.map((post) => (
                 <div key={post.$id} className="blog-item mb-5 mr-3 w-96 cursor-pointer">
-                  <div className="overflow-hidden rounded-lg shadow-lg transition-transform duration-300 transform hover:-translate-y-4">
+                  <div className="overflow-hidden rounded-lg shadow-lg transition-transform duration-300  hover:-translate-y-4">
                     <img
                       src={post.image}
                       alt={post.title}
