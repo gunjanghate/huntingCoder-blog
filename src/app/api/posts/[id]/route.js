@@ -1,6 +1,4 @@
 import { Databases } from "appwrite";
-// import client from "../../../lib/appwrite_client";
-// import { data } from "autoprefixer";
 import client from "@/lib/appwrite_client";
 import { NextResponse } from "next/server";
 

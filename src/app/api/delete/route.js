@@ -1,1 +1,0 @@
-// mongodb+srv://ghategunjan:<db_password>@cluster0.2emmu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

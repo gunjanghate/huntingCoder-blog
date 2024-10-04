@@ -5,21 +5,17 @@ import Link from "next/link";
 import { useState } from "react";
 
 import { metadata } from "./metadata";
-import AuthProvider from "../../components/AuthProvider";
-import { Session } from "next-auth";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children, session }) {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [isAdmIn, setIsAdmIn] = useState(false);
+
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
     setIsLoggedIn(!isLoggedIn);
     setIsAdmIn(!isAdmIn);
   };
-  // const session = true;
-  // const isAdmin = true;
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -31,7 +27,6 @@ export default function RootLayout({ children, session }) {
         <meta name="description" content={metadata.description} />
       </head>
       <body className={inter.className}>
-        <AuthProvider session={session}>
           <nav className="nav flex justify-between sticky w-screen top-0 bg-transparent bg-gray-900 shadow-slate-400 transition-all shadow-lg backdrop-blur-2xl">
             <Link
               href="/"
@@ -322,7 +317,6 @@ export default function RootLayout({ children, session }) {
               </div>
             </div>
           </footer>
-        </AuthProvider>
       </body>
     </html>
   );
