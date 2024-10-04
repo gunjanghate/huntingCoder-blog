@@ -1,6 +1,5 @@
 // "use client"
 import Link from "next/link";
-import { getPosts } from "@/lib/data";
 import { FaArrowRightLong } from "react-icons/fa6";
 import BlogsPage from "@/components/Blogs/Blogs";
 
