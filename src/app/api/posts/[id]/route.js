@@ -19,7 +19,7 @@ async function fetchPosts(id) {
   }
   
 
-async function detetePosts(id) {
+async function deletePosts(id) {
   try {
     const resp = await database.deleteDocument(
       process.env.APPWRITE_DB,
@@ -65,7 +65,7 @@ export async function GET(req, { params }) {
 export async function DELETE(req, { params }) {
   try {
     const id = params.id;
-    await detetePosts(id);
+    await deletePosts(id);
     return NextResponse.json({ message: "Post Deleted" });
   } catch (error) {
     console.log(error);
