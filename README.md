@@ -71,7 +71,7 @@ To set up the project locally, follow these steps:
    npm run dev
    ```
 
-6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see the app in action!
+6. Open your browser and visit [http://localhost:3000](http://localhost:3000](https://hunting-coder-blog-ecru.vercel.app/)) to see the app in action!
 
 ## Usage
 
