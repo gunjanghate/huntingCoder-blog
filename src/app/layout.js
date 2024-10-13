@@ -9,17 +9,10 @@ import { metadata } from "./metadata";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
-
-  const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => {
-    setIsLoggedIn(!isLoggedIn);
-    setIsAdmIn(!isAdmIn);
-  };
-
+  const [isOpen, setIsOpen] = useState(false)
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <html lang="en">
       <head>
@@ -95,7 +88,7 @@ export default function RootLayout({ children }) {
                       <li className="list-none-ham  mb-3 cursor-pointer hover:underline transition-all text-slate-300 hover:text-white font-extrabold">
                         <Link href="/pages/contact">Contact</Link>
                       </li>
-                      <div className="log-admin flex justify-center flex-col">
+                      {/* <div className="log-admin flex justify-center flex-col">
                         <li className="list-none-ham ml-28 mt-20 mb-2 text-white font-bold hover:font-extrabold">
                           <span className="bg-slate-400 p-3 rounded-xl transition-colors">
                             {isLoggedIn && isAdmIn ? "User" : "Guest"}
@@ -111,7 +104,7 @@ export default function RootLayout({ children }) {
                             </Link>
                           </span>
                         </li>
-                      </div>
+                      </div> */}
                     </ul>
                   )}
                 </div>
