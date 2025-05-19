@@ -1,7 +1,5 @@
-Here’s a sample README file for your GitHub repository, **huntingCoder-blog**. Feel free to modify any sections to better fit your project:
 
-```markdown
-# huntingCoder Blog
+# huntingCoder Blog ✍🏻
 
 Welcome to the **huntingCoder Blog** repository! This project is a coding blog platform where users can explore insightful articles on coding challenges, debugging tips, and more. Whether you’re a beginner or an experienced developer, our content is designed to enhance your problem-solving skills.
 
@@ -22,6 +20,7 @@ Welcome to the **huntingCoder Blog** repository! This project is a coding blog p
 - Responsive design for accessibility on different devices
 - Support for images and multimedia content
 - Fast loading times and optimized performance
+- Read, Add, Delete, Update blogs
 
 ## Technologies Used
 
@@ -119,4 +118,4 @@ Feel free to check out the live project [here](https://hunting-coder-blog-ecru.v
 - **License:** Information on the licensing of your project.
 - **Contact:** How others can reach you for questions or collaboration.
 
-Make sure to fill in any personal information (like email or LinkedIn) and modify any details to better fit your project!
+
